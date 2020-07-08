@@ -6,8 +6,8 @@
     <UseWPF>true</UseWPF>
     <Platforms>x64</Platforms>
 	  <RuntimeIdentifier>win10-x64</RuntimeIdentifier>
-	  <FileVersion>1.0.4.7494</FileVersion>
-	  <AssemblyVersion>1.0.4.7494</AssemblyVersion>
+	  <FileVersion>1.0.5.7494</FileVersion>
+	  <AssemblyVersion>1.0.5.7494</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
