@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfNetCoreDocFx5", "WpfNetCoreDocFx5\WpfNetCoreDocFx5.csproj", "{BF965071-C738-465E-94E9-6DA28C0C9F24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF965071-C738-465E-94E9-6DA28C0C9F24}.Debug|x64.ActiveCfg = Debug|x64
+		{BF965071-C738-465E-94E9-6DA28C0C9F24}.Debug|x64.Build.0 = Debug|x64
+		{BF965071-C738-465E-94E9-6DA28C0C9F24}.Release|x64.ActiveCfg = Release|x64
+		{BF965071-C738-465E-94E9-6DA28C0C9F24}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4E5D2DF5-3379-4843-A013-F9CAEB0DC74E}
+	EndGlobalSection
+EndGlobal
