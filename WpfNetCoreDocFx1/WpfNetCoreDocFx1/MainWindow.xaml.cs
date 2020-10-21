@@ -26,6 +26,10 @@ namespace WpfNetCoreDocFx1
         public MainWindow()
         {
             InitializeComponent();
+
+
+
+
         }
     }
 }
