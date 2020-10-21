@@ -26,6 +26,9 @@ namespace WpfNetCoreDocFx3
         public MainWindow()
         {
             InitializeComponent();
+
+
+
         }
     }
 }
