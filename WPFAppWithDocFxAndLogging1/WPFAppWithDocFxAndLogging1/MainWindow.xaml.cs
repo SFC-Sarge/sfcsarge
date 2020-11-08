@@ -154,7 +154,7 @@ namespace WPFAppWithDocFxAndLogging1
         {
             return Assembly.GetExecutingAssembly().GetName().Name;
         }
-        /// <summary>Shows the debug information. Test Push to Github Codespace Master</summary>
+        /// <summary>Shows the debug information. Test Push to Github Codespace origin/Master</summary>
         /// <returns>System.String.</returns>
         /// <remarks>
         /// <para><b>History:</b></para>
