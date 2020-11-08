@@ -66,7 +66,7 @@ namespace WPFAppWithDocFxAndLogging15
             return Assembly.GetExecutingAssembly().GetName().Name;
         }
         /// <summary>
-        /// Shows the debug information scan form.
+        /// Shows the debug information scan form. Test Commit to Github Codespaces
         /// </summary>
         /// <returns>System.String.</returns>
         public static string ShowDebugInfo()
