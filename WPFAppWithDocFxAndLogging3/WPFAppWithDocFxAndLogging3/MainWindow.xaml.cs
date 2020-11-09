@@ -154,7 +154,7 @@ namespace WPFAppWithDocFxAndLogging3
         {
             return Assembly.GetExecutingAssembly().GetName().Name;
         }
-        /// <summary>Shows the debug information. Test</summary>
+        /// <summary>Shows the debug information.</summary>
         /// <returns>System.String.</returns>
         /// <remarks>
         /// <para><b>History:</b></para>
