@@ -182,6 +182,41 @@ namespace WPFAppWithDocFxAndLogging3
             }
         }
 
+        /// <summary>Handles the Click event of the TestButton control.</summary>
+        /// <param name="sender">The source of the event.</param>
+        /// <param name="e">The <see cref="RoutedEventArgs" /> instance containing the event data.</param>
+        /// <remarks>
+        ///   <para>
+        ///     <b>History:</b>
+        ///   </para>
+        ///   <list type="table">
+        ///     <item>
+        ///       <description>
+        ///         <b>Code Changed by:</b>
+        ///         <para>Danny C. McNaught</para>
+        ///         <para>
+        ///           <para>
+        ///             <a href="mailto:danny.mcnaught@dannymcnaught.com">danny.mcnaught@dannymcnaught.com</a>
+        ///           </para>
+        ///         </para>
+        ///       </description>
+        ///     </item>
+        ///     <item>
+        ///       <description>
+        ///         <b>Code changed on Visual Studio Host Machine:</b>
+        ///         <para>DESKTOP-ACLFE3O</para>
+        ///       </description>
+        ///     </item>
+        ///     <item>
+        ///       <description>
+        ///         <b>Code Change Date and Time:</b>
+        ///         <para>Monday, November 9, 2020 3:48 PM</para>
+        ///         <b>Code Changes:</b>
+        ///         <para>Created XML Comment</para>
+        ///       </description>
+        ///     </item>
+        ///   </list>
+        /// </remarks>
         private void TestButton_Click(object sender, RoutedEventArgs e)
         {
             MessageBox.Show("Hello", "You Clicked Me.", MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK, MessageBoxOptions.ServiceNotification);
