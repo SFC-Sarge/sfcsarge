@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30626.31
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFAppWithDocFxAndLogging3", "WPFAppWithDocFxAndLogging3\WPFAppWithDocFxAndLogging3.csproj", "{6C16C1F1-7AE3-42C8-93B5-60353254538E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C16C1F1-7AE3-42C8-93B5-60353254538E}.Debug|x64.ActiveCfg = Debug|x64
+		{6C16C1F1-7AE3-42C8-93B5-60353254538E}.Debug|x64.Build.0 = Debug|x64
+		{6C16C1F1-7AE3-42C8-93B5-60353254538E}.Release|x64.ActiveCfg = Release|x64
+		{6C16C1F1-7AE3-42C8-93B5-60353254538E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD3AFEFE-F9C3-4A36-8A7A-B739F985DAF0}
+	EndGlobalSection
+EndGlobal
