@@ -166,7 +166,25 @@ namespace WPFAppWithDocFxAndLogging2
         /// <description><b>Code changed on Visual Studio Host Machine:</b><para>DESKTOP-ACLFE3O</para></description>
         /// </item>
         /// <item>
-        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 7:29 PM</para><b>Code Changes:</b><para>Created XML Comment</para></description>
+        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 7:48 PM</para><b>Code Changes:</b><para>Created XML Comment</para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code Changed by:</b><para>Danny C. McNaught</para><para><para><a href="mailto:danny.mcnaught@dannymcnaught.com">danny.mcnaught@dannymcnaught.com</a></para></para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code changed on Visual Studio Host Machine:</b><para>DESKTOP-ACLFE3O</para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 8:01 PM</para><b>Code Changes:</b><para>Updated XML Comment</para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code Changed by:</b><para>Danny C. McNaught</para><para><para><a href="mailto:danny.mcnaught@dannymcnaught.com">danny.mcnaught@dannymcnaught.com</a></para></para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code changed on Visual Studio Host Machine:</b><para>DESKTOP-ACLFE3O</para></description>
+        /// </item>
+        /// <item>
+        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 8:05 PM</para><b>Code Changes:</b><para>Updated XML Comment</para></description>
         /// </item>
         /// </list>
         /// </remarks>
