@@ -92,12 +92,12 @@
     "overwrite": [
       {
         "files": [
-          "api/**.md"
+          "api/**.md",
+          "_site_pdf/**"
         ],
         "exclude": [
           "**/bin/**",
-          "**/obj/**",
-          "_site_pdf/**"
+          "**/obj/**"
         ]
       }
     ],

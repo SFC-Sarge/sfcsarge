@@ -184,7 +184,7 @@ namespace WPFAppWithDocFxAndLogging2
         /// <description><b>Code changed on Visual Studio Host Machine:</b><para>DESKTOP-ACLFE3O</para></description>
         /// </item>
         /// <item>
-        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 8:05 PM</para><b>Code Changes:</b><para>Updated XML Comment</para></description>
+        /// <description><b>Code Change Date and Time:</b><para>Sunday, November 8, 2020 8:05 PM</para><b>Code Changes:</b><para>Overwrite XML Comment and updated PDF works now that I moved the overwrite option in DocFX.json file.</para></description>
         /// </item>
         /// </list>
         /// </remarks>
