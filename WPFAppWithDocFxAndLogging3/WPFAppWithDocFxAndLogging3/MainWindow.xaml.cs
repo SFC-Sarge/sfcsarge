@@ -182,5 +182,9 @@ namespace WPFAppWithDocFxAndLogging3
             }
         }
 
+        private void TestButton_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello", "You Clicked Me.", MessageBoxButton.OK, MessageBoxImage.Information, MessageBoxResult.OK, MessageBoxOptions.ServiceNotification);
+        }
     }
 }
