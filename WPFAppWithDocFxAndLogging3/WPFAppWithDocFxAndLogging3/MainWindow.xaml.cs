@@ -45,7 +45,7 @@ namespace WPFAppWithDocFxAndLogging3
     /// </remarks>
     public partial class MainWindow : Window
     {
-        /// <summary>Gets or sets the factory. Test</summary>
+        /// <summary>Gets or sets the factory.</summary>
         /// <value>The factory.</value>
         /// <remarks>
         /// <para><b>History:</b></para>
