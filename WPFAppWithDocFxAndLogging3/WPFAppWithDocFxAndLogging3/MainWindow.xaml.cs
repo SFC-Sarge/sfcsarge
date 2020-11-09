@@ -28,7 +28,7 @@ using System.Windows;
 
 namespace WPFAppWithDocFxAndLogging3
 {
-    /// <summary>Class MainWindow</summary>
+    /// <summary>Class MainWindow Test</summary>
     /// <remarks>
     /// <para><b>History:</b></para>
     /// <list type="table">
@@ -45,7 +45,7 @@ namespace WPFAppWithDocFxAndLogging3
     /// </remarks>
     public partial class MainWindow : Window
     {
-        /// <summary>Gets or sets the factory.</summary>
+        /// <summary>Gets or sets the factory. Test</summary>
         /// <value>The factory.</value>
         /// <remarks>
         /// <para><b>History:</b></para>
@@ -154,7 +154,7 @@ namespace WPFAppWithDocFxAndLogging3
         {
             return Assembly.GetExecutingAssembly().GetName().Name;
         }
-        /// <summary>Shows the debug information.</summary>
+        /// <summary>Shows the debug information. </summary>
         /// <returns>System.String.</returns>
         /// <remarks>
         /// <para><b>History:</b></para>
