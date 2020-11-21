@@ -91,7 +91,7 @@ namespace WPFAppWithDocFxAndLogging4
         /// <description><b>Code changed on Visual Studio Host Machine:</b><para>DESKTOP-ACLFE3O</para></description>
         /// </item>
         /// <item>
-        /// <description><b>Code Change Date and Time:</b><para>Friday, November 20, 2020 10:15 PM</para><b>Code Changes:</b><para>Created XML Comment</para></description>
+        /// <description><b>Code Change Date and Time:</b><para>Friday, November 20, 2020 10:43 PM</para><b>Code Changes:</b><para>Created XML Comment</para></description>
         /// </item>
         /// </list>
         /// </remarks>
