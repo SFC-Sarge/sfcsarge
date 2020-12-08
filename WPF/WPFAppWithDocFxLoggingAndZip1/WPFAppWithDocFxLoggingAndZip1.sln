@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30803.129
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFAppWithDocFxLoggingAndZip1", "WPFAppWithDocFxLoggingAndZip1\WPFAppWithDocFxLoggingAndZip1.csproj", "{05686948-34AA-4608-ABBD-9EDDCFD4C424}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDocFxWLoggingZipTestProject1", "WpfAppDocFxWLoggingZipTestProject1\WpfAppDocFxWLoggingZipTestProject1.csproj", "{3BAB97B9-20AF-4DD6-B774-69D0460F549C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05686948-34AA-4608-ABBD-9EDDCFD4C424}.Debug|x64.ActiveCfg = Debug|x64
+		{05686948-34AA-4608-ABBD-9EDDCFD4C424}.Debug|x64.Build.0 = Debug|x64
+		{05686948-34AA-4608-ABBD-9EDDCFD4C424}.Release|x64.ActiveCfg = Release|x64
+		{05686948-34AA-4608-ABBD-9EDDCFD4C424}.Release|x64.Build.0 = Release|x64
+		{3BAB97B9-20AF-4DD6-B774-69D0460F549C}.Debug|x64.ActiveCfg = Debug|x64
+		{3BAB97B9-20AF-4DD6-B774-69D0460F549C}.Debug|x64.Build.0 = Debug|x64
+		{3BAB97B9-20AF-4DD6-B774-69D0460F549C}.Release|x64.ActiveCfg = Release|x64
+		{3BAB97B9-20AF-4DD6-B774-69D0460F549C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {169690B9-6FD4-4004-A907-9F23AE4A2D97}
+	EndGlobalSection
+EndGlobal

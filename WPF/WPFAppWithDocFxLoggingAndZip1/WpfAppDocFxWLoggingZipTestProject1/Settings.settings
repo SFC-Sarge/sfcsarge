@@ -1,0 +1,81 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WpfAppDocFxWLoggingZipTestProject1" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CurrentUnitTestLogDirValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TestLogDir</Value>
+    </Setting>
+    <Setting Name="ExpectedAppNameValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">testhost</Value>
+    </Setting>
+    <Setting Name="urnSchemasMicrosoftComUnattend" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">urn:schemas-microsoft-com:unattend</Value>
+    </Setting>
+    <Setting Name="httpSchemasMicrosoftComWMIConfig2002State" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://schemas.microsoft.com/WMIConfig/2002/State</Value>
+    </Setting>
+    <Setting Name="UnitTestLogFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WPFTestProjectLog</Value>
+    </Setting>
+    <Setting Name="cultures" Type="System.Globalization.CultureInfo" Scope="Application">
+      <Value Profile="(Default)">en-US</Value>
+    </Setting>
+    <Setting Name="ExpectedBoolValueNameValue" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ExpectedIntValueNameValue" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="ExpectedILoggerValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WPFAppWithDocFxLoggingAndZip1.FileLogger</Value>
+    </Setting>
+    <Setting Name="ExpectedFactoryValue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Microsoft.Extensions.Logging.LoggerFactory</Value>
+    </Setting>
+    <Setting Name="UnitTestLogFileNameTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">WPFTestProjectLogFileTest</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">UnitTestZipFile.zip</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileNameToCreate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Readme.txt</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileLinesToAddToNewFile" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">This Readme.txt file is created during the Zip Process and added to the zip file.,Information about this package.,Line 2.,Line 3.,Line 4.,========================</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileCompressionLevel" Type="System.IO.Compression.CompressionLevel" Scope="Application">
+      <Value Profile="(Default)">Optimal</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileNameToDelete" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Readme.txt</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileToAddFullName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">NewReadme.txt</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileFromDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SampleDirectory</Value>
+    </Setting>
+    <Setting Name="UnitTestZipFileFromDirectoryFileExist" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Hello.docx</Value>
+    </Setting>
+    <Setting Name="UnitTestLogMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogMessage Returned</Value>
+    </Setting>
+    <Setting Name="UnitTestLogErrorMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogErrorMessage Returned</Value>
+    </Setting>
+    <Setting Name="UnitTestLogInformationMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogInformationMessage Returned</Value>
+    </Setting>
+    <Setting Name="UnitTestLogTraceMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogTraceMessage Returned</Value>
+    </Setting>
+    <Setting Name="UnitTestLogDebugMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogDebugMessage Returned</Value>
+    </Setting>
+    <Setting Name="UnitTestLogWarningMessage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LogWarningMessage Returned</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
