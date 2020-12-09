@@ -258,7 +258,10 @@ namespace WPFAppWithDocFxLoggingAndZip1
             string fileToAddName = Path.GetFileName(fileToAddFullName);
             ZipArchiveEntry existingFileEntry = archive.CreateEntryFromFile(fileToAddFullName, fileToAddName, compressionLevel);
         }
-        /// <summary>Files the exist in zip. Change to test GitHub Codespace Build of project to see if API PDF doc is updated. </summary>
+        /// <summary>Files the exist in zip. 
+        /// Change to test GitHub Codespace Build of project to see if API PDF doc is updated. 
+        /// Updated from HP system.
+        /// </summary>
         /// <param name="zipFilePath">The zip file path.</param>
         /// <param name="fileNameToFind">The file name to find.</param>
         /// <param name="promptFileExist">The prompt file exist.</param>
