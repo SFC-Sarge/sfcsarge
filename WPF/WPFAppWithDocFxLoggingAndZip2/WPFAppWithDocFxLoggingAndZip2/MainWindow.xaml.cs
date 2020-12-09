@@ -98,9 +98,9 @@ namespace WPFAppWithDocFxLoggingAndZip2
         public MainWindow()
         {
             InitializeComponent();
-#if !DEBUG
+//#if !DEBUG
             DumpExtensions.DisableDumping();
-#endif
+//#endif
             string logFileName = AppName().Dump("AppName()");
             string currentLogDirValue = AppPath().Dump("AppPath()");
             Factory = new LoggerFactory()
