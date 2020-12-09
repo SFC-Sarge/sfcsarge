@@ -278,13 +278,14 @@ namespace WPFAppWithDocFxLoggingAndZip1
         /// </list>
         /// </remarks>
         public static bool FileExistInZip(string zipFilePath, string fileNameToFind, bool promptFileExist = true)
-        {
+        {            
             if (zipFilePath is null || fileNameToFind is null)
                 return false;
             using ZipArchive archive = ZipFile.Open(zipFilePath, ZipArchiveMode.Update);
             ZipArchiveEntry result = archive.GetEntry(fileNameToFind);
             if (result is not null && result.Name == fileNameToFind)
             {
+                //Note: MessageBox.Show does not work on GitHub Codespaces.
                 if (promptFileExist)
                 {
                     MessageBoxResult myResult = MessageBox.Show($"The file: {fileNameToFind} exists!{Environment.NewLine}{Environment.NewLine}", $"{fileNameToFind} exists", MessageBoxButton.OK, MessageBoxImage.Warning, MessageBoxResult.OK, MessageBoxOptions.ServiceNotification);
