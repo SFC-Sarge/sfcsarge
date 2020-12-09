@@ -65,9 +65,12 @@ namespace WPFAppWithDocFxLoggingAndZip1
                 return;
             if (!File.Exists(zipFilePath))
             {
-                MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!{Environment.NewLine}{Environment.NewLine}Do you want to create it?", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
-                if (myResult is MessageBoxResult.Cancel)
-                    return;
+                if (promptFileExist)
+                {
+                    MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!{Environment.NewLine}{Environment.NewLine}Do you want to create it?", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
+                        if (myResult is MessageBoxResult.Cancel)
+                            return;
+                }
             }
             using (ZipArchive archive = ZipFile.Open(zipFilePath, ZipArchiveMode.Update))
             {
@@ -118,9 +121,12 @@ namespace WPFAppWithDocFxLoggingAndZip1
                 return;
             if (!File.Exists(zipFilePath))
             {
-                MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
-                if (myResult is MessageBoxResult.OK or MessageBoxResult.Cancel)
-                    return;
+                if (promptFileExist)
+                {
+                    MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
+                        if (myResult is MessageBoxResult.OK or MessageBoxResult.Cancel)
+                            return;
+                }
             }
             string fileToAddName = Path.GetFileName(fileToAddFullName);
             //Add existing file to Zip.
@@ -252,7 +258,10 @@ namespace WPFAppWithDocFxLoggingAndZip1
             string fileToAddName = Path.GetFileName(fileToAddFullName);
             ZipArchiveEntry existingFileEntry = archive.CreateEntryFromFile(fileToAddFullName, fileToAddName, compressionLevel);
         }
-        /// <summary>Files the exist in zip.</summary>
+        /// <summary>Files the exist in zip. 
+        /// Change to test GitHub Codespace Build of project to see if API PDF doc is updated. 
+        /// Updated from HP system.
+        /// </summary>
         /// <param name="zipFilePath">The zip file path.</param>
         /// <param name="fileNameToFind">The file name to find.</param>
         /// <param name="promptFileExist">The prompt file exist.</param>
@@ -272,13 +281,14 @@ namespace WPFAppWithDocFxLoggingAndZip1
         /// </list>
         /// </remarks>
         public static bool FileExistInZip(string zipFilePath, string fileNameToFind, bool promptFileExist = true)
-        {
+        {            
             if (zipFilePath is null || fileNameToFind is null)
                 return false;
             using ZipArchive archive = ZipFile.Open(zipFilePath, ZipArchiveMode.Update);
             ZipArchiveEntry result = archive.GetEntry(fileNameToFind);
             if (result is not null && result.Name == fileNameToFind)
             {
+                //Note: MessageBox.Show does not work on GitHub Codespaces.
                 if (promptFileExist)
                 {
                     MessageBoxResult myResult = MessageBox.Show($"The file: {fileNameToFind} exists!{Environment.NewLine}{Environment.NewLine}", $"{fileNameToFind} exists", MessageBoxButton.OK, MessageBoxImage.Warning, MessageBoxResult.OK, MessageBoxOptions.ServiceNotification);
