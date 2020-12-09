@@ -65,9 +65,12 @@ namespace WPFAppWithDocFxLoggingAndZip1
                 return;
             if (!File.Exists(zipFilePath))
             {
-                MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!{Environment.NewLine}{Environment.NewLine}Do you want to create it?", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
-                if (myResult is MessageBoxResult.Cancel)
-                    return;
+                if (promptFileExist)
+                {
+                    MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!{Environment.NewLine}{Environment.NewLine}Do you want to create it?", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
+                        if (myResult is MessageBoxResult.Cancel)
+                            return;
+                }
             }
             using (ZipArchive archive = ZipFile.Open(zipFilePath, ZipArchiveMode.Update))
             {
@@ -118,9 +121,12 @@ namespace WPFAppWithDocFxLoggingAndZip1
                 return;
             if (!File.Exists(zipFilePath))
             {
-                MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
-                if (myResult is MessageBoxResult.OK or MessageBoxResult.Cancel)
-                    return;
+                if (promptFileExist)
+                {
+                    MessageBoxResult myResult = MessageBox.Show($"The file: {zipFilePath} does not exist!", $"{zipFilePath} not found", MessageBoxButton.OKCancel, MessageBoxImage.Error, MessageBoxResult.Cancel, MessageBoxOptions.ServiceNotification);
+                        if (myResult is MessageBoxResult.OK or MessageBoxResult.Cancel)
+                            return;
+                }
             }
             string fileToAddName = Path.GetFileName(fileToAddFullName);
             //Add existing file to Zip.
